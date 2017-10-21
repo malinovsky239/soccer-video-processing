@@ -1,0 +1,28 @@
+﻿<Window x:Class="SoccerTracking.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"                
+        xmlns:screenCorner="clr-namespace:ScreenCorner;assembly=ScreenCorner"
+        MouseDown="Window_MouseDown"
+        MouseUp="StopResizeWidth"        
+        MouseMove="Window_OnMouseMove"
+        KeyDown="Window_KeyDown"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" MinHeight="200" MinWidth="200"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+    <Grid Name="Grid" Cursor="Arrow">
+        <screenCorner:Corner Rotation="0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <screenCorner:Corner Rotation="90" HorizontalAlignment="Right" VerticalAlignment="Top" />
+        <screenCorner:Corner Rotation="180" HorizontalAlignment="Right" VerticalAlignment="Bottom" />
+        <screenCorner:Corner Rotation="270" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+        <Line Name="TopBorder" Stroke="red" StrokeThickness="6" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="13" X1="0" X2="50" Y1="0" Y2="0" Cursor="No" />
+        <Line Name="BottomBorder" MouseDown="StartResizeWidth" Stroke="red" StrokeThickness="6" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="13" X1="0" X2="50" Y1="0" Y2="0" Cursor="SizeNS" />
+        <Line Name="LeftBorder" Stroke="red" StrokeThickness="6" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="13" X1="0" X2="0" Y1="0" Y2="50" Cursor="No" />
+        <Line Name="RightBorder" MouseDown="StartResizeWidth" Stroke="red" StrokeThickness="6" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="13" X1="0" X2="0" Y1="0" Y2="50" Cursor="SizeWE" />
+        <Image Name="DraggableAnchor"  Height="50" Width="50" Source="/Resources/Cursor.png" Cursor="Hand" />
+    </Grid>
+</Window>
+

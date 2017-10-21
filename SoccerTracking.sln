@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoccerTracking", "SoccerTracking\SoccerTracking.csproj", "{8C1A6CB8-F095-46C1-BCD6-7D9EE0EBA44F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenCorner", "ScreenCorner\ScreenCorner.csproj", "{B4C6BF2D-E44D-4179-9199-95F332AA6476}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C1A6CB8-F095-46C1-BCD6-7D9EE0EBA44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1A6CB8-F095-46C1-BCD6-7D9EE0EBA44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1A6CB8-F095-46C1-BCD6-7D9EE0EBA44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1A6CB8-F095-46C1-BCD6-7D9EE0EBA44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C6BF2D-E44D-4179-9199-95F332AA6476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C6BF2D-E44D-4179-9199-95F332AA6476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C6BF2D-E44D-4179-9199-95F332AA6476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C6BF2D-E44D-4179-9199-95F332AA6476}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
